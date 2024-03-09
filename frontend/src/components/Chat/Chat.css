@@ -1,0 +1,23 @@
+.contenedor-chat {
+    height: 60vh;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+.contenedor-chat::-webkit-scrollbar {
+    background-color: orange; /* tiene que haber algo aquí para que funcione... */
+}
+.contenedor-chat::-webkit-scrollbar-track {
+    background: orange;
+}
+.contenedor-chat::-webkit-scrollbar-thumb {
+    background-color: orangered;
+}
+
+

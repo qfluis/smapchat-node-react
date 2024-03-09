@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(255, 145, 0);
+}
+
+#root > div > .container {
+  background-color: white;
+  min-height: 100vh
+}
+
+.service-status {
+  padding-left: 12px;
+  background-color: white;
+  margin:0px;
+  border-bottom: 1px solid black;
+}
+
+.container {
+  min-height: 0px !important;
+}
+.app-container {
+  min-height: 100vh !important;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding-left: 12px;
+  margin-top: auto;
+
+  transition: height 1s;
+}
+
+footer ul {
+  list-style: none;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color:orangered;
+}
